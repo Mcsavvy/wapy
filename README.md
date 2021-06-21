@@ -10,21 +10,21 @@ The tool automatically skips any number that doesn't exist and fun part is __*ev
 USAGE
 =====
 
-import and create an instance of wapy
+<p>import and create an instance of wapy</p>
 <code>
     from wapy import Wapy <br>
     instance = Wapy()
 </code>
 
 <p>set file for processed numbers</p>
+<sub>#default</sub><br>
 <code>
-    <sub>#default</sub><br>
     instance.processed = "processed.txt"
 </code>
 
 <p>set file for verified numbers</p>
+<sub>#default</sub><br>
 <code>
-    <sub>#default</sub><br>
     instance.success = "success.txt"
 </code>
 
