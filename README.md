@@ -18,25 +18,25 @@ import and create an instance of wapy
 
 <p>set file for processed numbers</p>
 <code>
+    <sub>#default</sub><br>
     instance.processed = "processed.txt"
-    <sub>#default</sub>
 </code>
 
 <p>set file for verified numbers</p>
 <code>
+    <sub>#default</sub><br>
     instance.success = "success.txt"
-    <sub>#default</sub>
 </code>
 
 <p>add numbers</p>
 <sub>
     accepted objects are:
-    <ul>
-        <li>iterable</li>
-        <li>file_path</li>
-        <li>string</li>
-    </ul>
 </sub>
+<ul>
+    <li>iterable</li>
+    <li>file_path</li>
+    <li>string</li>
+</ul>
 <code>
     wapy.get_numbers(iterable|file_path|string)
 </code>
