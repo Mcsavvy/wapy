@@ -10,25 +10,25 @@ The tool automatically skips any number that doesn't exist and fun part is __*ev
 USAGE
 =====
 
-<p>import and create an instance of wapy</p>
+<pre>import and create an instance of wapy</pre>
 <code>
     from wapy import Wapy <br>
     instance = Wapy()
 </code>
 <br>
-<p>set file for processed numbers</p>
+<pre>set file for processed numbers</pre>
 <sub>#default</sub><br>
 <code>
     instance.processed = "processed.txt"
 </code>
 <br>
-<p>set file for verified numbers</p>
+<pre>set file for verified numbers</pre>
 <sub>#default</sub><br>
 <code>
     instance.success = "success.txt"
 </code>
 <br>
-<p>add numbers</p>
+<pre>add numbers</pre>
 <sub>
     accepted objects are:
 </sub>
@@ -41,13 +41,13 @@ USAGE
     wapy.get_numbers(iterable|file_path|string)
 </code>
 <br>
-<p>add text text to send</p>
-<sub>#optional</sub>
+<pre>add text text to send</pre>
+<sub>#optional</sub><br>
 <code>
     instance.text = "this text was automatically sent"
 </code>
 <br>
-<p>run it by calling the instance</p>
+<pre>run it by calling the instance</pre>
 <code>
     instance()
 </code>
