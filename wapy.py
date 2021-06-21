@@ -17,7 +17,7 @@ from selenium.webdriver.chrome.options import Options
 from waiting import wait, TimeoutExpired
 
 
-class WA:
+class Wapy:
     processed = "processed.txt"
     success = "success.txt"
 
